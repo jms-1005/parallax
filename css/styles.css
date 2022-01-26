@@ -1,0 +1,59 @@
+#banner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/banner1.jpg");
+  background-size: cover;
+}
+#banner h1 {
+  background-color: #dfdddd;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#intro {
+  min-height: 600px;
+  background-color: maroon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#intro p {
+  margin: 50px;
+  font-size: 40px;
+  background-image: linear-gradient(150deg, #0f44a7 -100.65%, #d95a5a -0.65%, #4ca754 99.35%);
+  -webkit-background-clip: text;
+}
+
+#testimonials {
+  min-height: 800px;
+  background-image: url("../assets/testimonials-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#testimonials .testimonials {
+  min-height: 600px;
+  width: 25%;
+  background-color: black;
+  opacity: 0.4;
+  margin: 0 10px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+}
+
+#footer {
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9b9a9a;
+}
+
+/*# sourceMappingURL=styles.css.map */
